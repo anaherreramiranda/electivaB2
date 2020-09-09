@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/ic_launcher_background"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="380dp"
+        android:layout_height="128dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="337dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="133dp"
+        android:background="#34F5F8F5"
+        android:textAllCaps="true"
+        android:textColor="#FDFAFA"
+        android:textSize="29sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <TextView
+        android:id="@+id/TextView"
+        android:layout_width="184dp"
+        android:layout_height="21dp"
+        android:layout_marginEnd="112dp"
+        android:text="@string/TextView"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FAF7F8"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="32dp" />
+
+    <ListView
+        android:id="@+id/listview"
+        android:layout_width="match_parent"
+        android:layout_height="224dp"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="305dp"
+        android:background="#FFC107"
+        android:backgroundTint="#1BF7FAF6"
+        android:cacheColorHint="#00241B1B"
+        android:clickable="false"
+        android:clipChildren="true"
+        android:listSelector="#7C03A9F4"
+        android:longClickable="false"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
